@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Dove | 你很安全</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="dove">🕊️</span>
+                <span class="logo-text">White Dove</span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link" data-en="Home" data-zh="首页">Home</a>
+                <a href="#about" class="nav-link" data-en="About" data-zh="关于">About</a>
+                <a href="#sharing" class="nav-link" data-en="Sharing" data-zh="分享">Sharing</a>
+                <a href="#journal" class="nav-link" data-en="Journal" data-zh="日记">Journal</a>
+                <a href="#resources" class="nav-link" data-en="Resources" data-zh="资源">Resources</a>
+            </div>
+            
+            <div class="nav-right">
+                <button id="lang-toggle" class="lang-btn">
+                    <span class="current-lang">English</span> | <span class="other-lang">中文</span>
+                </button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-text" data-en="A safe space for your heart" data-zh="给心灵的温柔港湾"></span>
+            </div>
+            <h1 class="hero-title" data-en="White Dove" data-zh="白鸽">White Dove</h1>
+            <p class="hero-slogan" data-en="You are safe here." data-zh="你在这里很安全。">You are safe here.</p>
+            <p class="hero-subtitle" data-en="A calm and anonymous emotional support space for students under pressure." data-zh="给承受压力的学生们，一个安静且匿名的情感支持空间。">
+                A calm and anonymous emotional support space for students under pressure.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#sharing" class="btn primary-btn" data-en="Start Sharing" data-zh="开始分享">Start Sharing</a>
+                <a href="#journal" class="btn secondary-btn" data-en="Open Journal" data-zh="打开日记">Open Journal</a>
+            </div>
+            
+            <div class="trust-badges">
+                <div class="trust-item">
+                    <i class="fas fa-lock"></i>
+                    <span data-en="100% Anonymous" data-zh="完全匿名"></span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-heart"></i>
+                    <span data-en="Made with care" data-zh="用心制作"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-visual">
+            <div class="floating-doves">
+                <span class="dove-float">🕊️</span>
+                <span class="dove-float">🕊️</span>
+                <span class="dove-float">🕊️</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about-section">
+        <div class="section-header">
+            <h2 data-en="Our Story" data-zh="我们的故事">Our Story</h2>
+            <p data-en="Created with love for students who need a gentle place to rest their hearts." data-zh="为需要心灵休憩的学生们，用爱创造的温柔空间。">
+                Created with love for students who need a gentle place to rest their hearts.
+            </p>
+        </div>
+        
+        <div class="about-grid">
+            <div class="about-card">
+                <div class="about-icon">🌱</div>
+                <h3 data-en="Healing" data-zh="疗愈">Healing</h3>
+                <p data-en="A space where your feelings are valid and welcomed without judgment." data-zh="一个你的感受被接纳、没有评判的空间。">
+                    A space where your feelings are valid and welcomed without judgment.
+                </p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon">🤝</div>
+                <h3 data-en="Community" data-zh="陪伴">Community</h3>
+                <p data-en="You are never alone. Others are walking through similar seasons." data-zh="你从不孤单。许多人正在经历相似的阶段。">
+                    You are never alone. Others are walking through similar seasons.
+                </p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon">🕊️</div>
+                <h3 data-en="Gentle" data-zh="温柔">Gentle</h3>
+                <p data-en="Soft colors, calm words, and peaceful design to help you breathe easier." data-zh="柔和的色彩、温柔的文字、平静的设计，帮助你放松呼吸。">
+                    Soft colors, calm words, and peaceful design to help you breathe easier.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Anonymous Sharing -->
+    <section id="sharing" class="section sharing-section">
+        <div class="section-header">
+            <h2 data-en="Anonymous Sharing" data-zh="匿名分享">Anonymous Sharing</h2>
+            <p data-en="Speak your heart. No names. No judgment. Just release." data-zh="说出你的心声。不留姓名。没有评判。只是释放。">
+                Speak your heart. No names. No judgment. Just release.
+            </p>
+        </div>
+        
+        <div class="sharing-container">
+            <div class="share-box">
+                <textarea id="share-text" placeholder="Write what you're feeling today... 今天你感觉如何？" rows="6"></textarea>
+                <button id="share-btn" class="btn primary-btn">
+                    <i class="fas fa-dove"></i> 
+                    <span data-en="Share Anonymously" data-zh="匿名发布">Share Anonymously</span>
+                </button>
+            </div>
+            
+            <div class="shared-feed">
+                <h3 data-en="Recent Gentle Voices" data-zh="最近的心声">Recent Gentle Voices</h3>
+                <div id="feed-container" class="feed"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mood Journal -->
+    <section id="journal" class="section journal-section">
+        <div class="section-header">
+            <h2 data-en="Mood Journal" data-zh="心情日记">Mood Journal</h2>
+            <p data-en="Track your emotions gently. Your private, safe space." data-zh="温柔地记录你的情绪。这是你私密的、安全的空间。">
+                Track your emotions gently. Your private, safe space.
+            </p>
+        </div>
+        
+        <div class="journal-main">
+            <div class="mood-selector">
+                <h3 data-en="How are you feeling today?" data-zh="今天你感觉如何？">How are you feeling today?</h3>
+                <div class="moods">
+                    <button class="mood-btn" data-mood="😊">😊</button>
+                    <button class="mood-btn" data-mood="🙂">🙂</button>
+                    <button class="mood-btn" data-mood="😐">😐</button>
+                    <button class="mood-btn" data-mood="😟">😟</button>
+                    <button class="mood-btn" data-mood="😢">😢</button>
+                </div>
+            </div>
+            
+            <textarea id="journal-text" placeholder="Dear me, today I felt..." rows="5"></textarea>
+            
+            <button id="save-journal" class="btn primary-btn">Save Entry</button>
+            
+            <div class="past-entries">
+                <h3 data-en="Past Entries" data-zh="过往记录">Past Entries</h3>
+                <div id="entries-container" class="entries"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="section resources-section">
+        <div class="section-header">
+            <h2 data-en="Gentle Resources" data-zh="温柔资源">Gentle Resources</h2>
+        </div>
+        
+        <div class="resources-grid">
+            <div class="resource-card">
+                <h3 data-en="Breathing Exercise" data-zh="呼吸练习">4-7-8 Breathing</h3>
+                <p data-en="Inhale for 4, hold for 7, exhale for 8. Repeat 4 times." data-zh="吸气4秒，屏息7秒，呼气8秒。重复4次。">
+                    Inhale for 4, hold for 7, exhale for 8. Repeat 4 times.
+                </p>
+                <button class="start-breathing" onclick="startBreathing()">Start Exercise</button>
+            </div>
+            
+            <div class="resource-card">
+                <h3 data-en="Grounding Technique" data-zh=" grounding 技巧">5-4-3-2-1 Grounding</h3>
+                <p data-en="5 things you see. 4 you can touch. 3 you hear. 2 you smell. 1 you taste." data-zh="5件你看到的，4件你能触摸的，3件你听到的，2件你闻到的，1件你尝到的。">
+                    5 things you see. 4 you can touch. 3 you hear. 2 you smell. 1 you taste.
+                </p>
+            </div>
+            
+            <div class="resource-card">
+                <h3 data-en="Helpful Reminders" data-zh="温暖提醒">Helpful Reminders</h3>
+                <ul>
+                    <li data-en="This feeling will pass." data-zh="这种感觉会过去的。"></li>
+                    <li data-en="You are doing your best." data-zh="你已经很努力了。"></li>
+                    <li data-en="Rest is productive." data-zh="休息也是生产力。"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency -->
+    <section id="emergency" class="section emergency-section">
+        <div class="emergency-content">
+            <div class="emergency-icon">🆘</div>
+            <h2 data-en="Emergency Help" data-zh="紧急帮助">If you need immediate help</h2>
+            <p data-en="You are not alone. Please reach out to these services:" data-zh="你并不孤单。请联系以下服务：">
+                You are not alone. Please reach out to these services:
+            </p>
+            
+            <div class="helplines">
+                <div class="helpline">
+                    <strong>Singapore</strong><br>
+                    Samaritans of Singapore: 1800-221-4444<br>
+                    IMH Mental Health Helpline: 6389-2222
+                </div>
+                <div class="helpline">
+                    <strong>International</strong><br>
+                    Find local helplines: <a href="https://findahelpline.com" target="_blank">findahelpline.com</a>
+                </div>
+            </div>
+            
+            <p class="disclaimer" data-en="This website is not a substitute for professional mental health care." data-zh="本网站不是专业心理健康服务的替代品。">
+                This website is not a substitute for professional mental health care.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p data-en="Made with 🕊️ for students everywhere" data-zh="为全世界的学生们，用爱制作"></p>
+            <p class="copyright">© 2026 White Dove • A student project</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
